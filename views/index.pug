@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    include ../components/header
+    link(rel='stylesheet', href='/stylesheets/header.css')
+
+    include ../components/nav
+    link(rel='stylesheet', href='/stylesheets/nav.css')
+
+    include ../components/map/mapContent
+    link(rel='stylesheet', href='/stylesheets/map/mapContent.css')
+    script(src="/javascripts/map/mapContent.js")

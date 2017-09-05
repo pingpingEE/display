@@ -1,0 +1,39 @@
+.nav-wrap {
+  width: 80px;
+  height: calc(100% - 101px);
+  position: absolute;
+  left: 0;
+  top: 100px;
+  border-right: 1px solid #5d5d5d;
+}
+
+.nav-wrap ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-wrap ul li {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #5d5d5d;
+  cursor: pointer;
+}
+
+.nav-wrap ul li .nav-w-icon {
+  width: 100%;
+  height: 60px;
+  display: block;
+  float: left;
+  line-height: 60px;
+  text-align: center;
+}
+
+.nav-wrap ul li .nav-w-title {
+  width: 100%;
+  height: 20px;
+  display: block;
+  float: left;
+  line-height: 20px;
+  text-align: center;
+}

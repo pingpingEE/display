@@ -1,7 +1,10 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        script(src="/config/config.js")
+        link(rel='stylesheet', href='/lib/hmap-js/HMap.css')
+        script(src="/lib/hmap-js/HMap.js")
+    body
+        block content
